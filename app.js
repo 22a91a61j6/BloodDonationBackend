@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
 });
 
 // Start server (use Render's PORT env var)
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 server.listen(PORT, () => {
   console.log(`Server is running at port ${PORT}`);
 });
